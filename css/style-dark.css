@@ -1,0 +1,239 @@
+:root {
+  --dark-color1: #171717;
+  --dark-color2: #222020;
+  --dark-color3: #2b242b;
+  --dark-color4: #212529;
+}
+
+.bg-dark-1 {
+  background-color: var(--dark-color1) !important;
+}
+
+.bg-dark-2 {
+  background-color: var(--dark-color2) !important;
+}
+
+.bg-dark-3 {
+  background-color: var(--dark-color3) !important;
+}
+
+.bg-dark-4 {
+  background-color: var(--dark-color4) !important;
+}
+
+body,
+.sticky-header.fixed-header,
+.page-wrapper,
+.features-section-two,
+.fact-counter .counter-column .inner,
+.project-block-home1 .info-box,
+.header-style-two .header-lower,
+.why-choose-us .bg-image:before,
+.feature-block-two .icon,
+.contact-form .form-group .select2-container--default .select2-selection--single,
+.range-slider-one .ui-widget.ui-widget-content,
+.call-to-action:before,
+.main-footer .bg-image:before,
+.btn-style-two,
+.tp-dottedoverlay,
+.banner-section .slide-item .bg-image:before,
+.service-block-two .image-box .icon,
+.testimonial-section-two .bg-image::before,
+.offer-section .image-column .caption-box,
+.fact-counter-one,
+.fact-counter-one:before,
+.news-block .inner-box .image-box .post-date,
+.contact-info-block .icon-box,
+.subscribe-form .form-group .theme-btn {
+  background-color: var(--dark-color1);
+}
+
+.features-section-two .feature-block-three .inner,
+.service-block-home1 .inner-box,
+.process-block-two .icon-box .icon,
+.about-section-home1 .image-column .inner-column .image-box:before,
+.about-section-home1 .image-column .inner-column .image-box:after,
+.fact-counter .counter-column .icon,
+.clients-section,
+.news-block-home1 .inner-box .content-box,
+.range-slider-one .ui-slider .ui-slider-range,
+.main-header .header-lower .outer-box .theme-btn,
+.feature-block-three .inner,
+.offer-section,
+.news-block .inner-box .content-box,
+.about-section-home-2 .image-column .inner-column .image-box .exp-box {
+  background-color: var(--dark-color2);
+}
+
+.process-block-two .icon-box .count,
+.range-slider-one .ui-widget-content .ui-state-default,
+.feature-block-three .inner:hover {
+  background-color: var(--dark-color3);
+}
+
+.header-style-two .header-lower .logo-box,
+.header-style-two .header-top,
+.header-top .inner-container,
+.project-block-home1 .read-more,
+.contact-form,
+.testimonial-block-home1 .inner-box,
+.call-to-action .outer-box .play-now .icon,
+.metis.tparrows,
+.btn-style-one.alternate,
+.feature-block .icon-box,
+.team-block-two .share-icon,
+.testimonial-section-two .bg-image:after,
+.news-block .inner-box .post-meta,
+.call-to-action-two .outer-box,
+.call-to-action-two .outer-box:before,
+.about-section-home1 .image-column .inner-column .video-box .inner .play-now .icon,
+.service-block-home1 .inner-box .icon,
+.main-slider .title:before {
+  background-color: var(--dark-color4);
+}
+
+.btn-style-three,
+.work-tabs .tab-buttons .tab-btn {
+  background-color: #000;
+}
+
+.about-section .content-column .info-btn i {
+  background-color: #282a2e;
+}
+
+.feature-block-three .icon:after {
+  background-color: #303642;
+}
+
+.features-section-two .feature-block-three .icon:after {
+  background-color: #40405e;
+}
+
+.features-section-two .feature-block-three .inner:hover,
+.about-block .icon {
+  background-color: #303044;
+}
+
+.team-section:before,
+.about-section-two.style-two .float-text {
+  opacity: 0.1;
+}
+
+.features-section-two:before,
+.work-section .icon-dotted-map-2 {
+  opacity: 0.1;
+}
+
+.service-block .read-more i {
+  color: #fff;
+  -webkit-box-shadow: 0 10px 30px rgba(255, 255, 255, 0.12);
+          box-shadow: 0 10px 30px rgba(255, 255, 255, 0.12);
+}
+
+.about-section-two .content-column .inner-column .list-style-two li {
+  color: #6a6a6a;
+}
+
+.about-section .content-column .info-box .inner:hover .icon {
+  color: #fff;
+}
+
+.process-block .inner-box::before,
+.service-block .inner-box {
+  border-color: var(--dark-color1);
+}
+
+.team-block .image-box:before {
+  border-color: #464548;
+}
+
+.clients-section {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.blockquote-one {
+  color: #8d8d8d;
+}
+
+.main-menu .navigation > li > a,
+strong,
+.title a,
+.sec-title h2,
+.service-block-home1 .inner-box .read-more,
+.process-block-two .info-box .title,
+.about-section-home1 .content-column .inner-column .info-box .inner-box .icon,
+.testimonial-block-home1 .content-box .name,
+.fact-counter .count-box .count-text,
+.news-block-home1 .inner-box .content-box .read-more,
+.metis.tparrows:before,
+.feature-block-three .icon,
+.feature-block .content-box .title a,
+.feature-block-three .title,
+.service-block-two .image-box .icon,
+.service-block-two .content-box .title a,
+.team-block-two .info-box .name,
+.team-block-two .info-box .name:hover,
+.testimonial-block-two .info-box .name,
+.testimonial-block-two .info-box .designation,
+.news-block .inner-box .content-box .read-more,
+.news-block .inner-box .content-box .read-more:hover,
+.fact-counter-one .count-box,
+.about-section-home-2 .image-column .inner-column .image-box .exp-box .counter-title {
+  color: #fff;
+}
+
+.about-section .content-column .info-box:hover .title {
+  color: var(--dark-color1);
+}
+
+.border-color,
+.service-block-home1 .inner-box,
+.service-block-home1 .inner-box .title,
+.process-block-two .icon-box:before,
+.header-style-two .header-lower .logo-box,
+.fact-counter .counter-column .icon,
+.contact-form .form-group input:not([type=submit]),
+.contact-form .form-group .select2-container--default .select2-selection--single,
+.news-block-home1 .inner-box .content-box,
+.range-slider-one .ui-widget-content .ui-state-default,
+.about-section-home-2 .image-column .inner-column .image-box .image-1,
+.about-section-home-2 .image-column .inner-column .image-box .image-2,
+.testimonial-block-two .info-box .thumb img,
+.founder-info .thumb,
+.feature-block .inner-box {
+  border-color: #505050;
+}
+
+.header-style-two {
+  background-color: unset;
+}
+
+.tp-dottedoverlay {
+  opacity: 0.7;
+}
+
+.about-section-home1 .image-column .inner-column .video-box .inner:before {
+  background-image: url(../images/icons/shape-3-1-dark.png);
+}
+
+.about-section-home1 .content-column .inner-column .author-box .sign,
+.icon-quote {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+.clients-carousel .slide-item img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.clients-section .slide-item a:hover {
+  background-color: inherit;
+}
+
+.contact-form .form-group textarea {
+  background-color: var(--dark-color1);
+}
+.contact-form .form-group input:not([type=submit]) {
+  background-color: var(--dark-color1);
+}
