@@ -45,9 +45,14 @@ License: copyright commercial
 @import url("tm-bs-mp.css");
 @import url("tm-utility-classes.css");
 :root {
-  --theme-color1: #23589C;
-  --theme-color2: #F06B1C;
-  --theme-color3: #0E233E;
+  --prussian-blue: #022857;
+  --brick-ember: #B81706;
+  --white: #FEFDFE;
+  --white-2: #FDFDFD;
+  --white-3: #FDFDFE;
+  --theme-color1: #022857;
+  --theme-color2: #B81706;
+  --theme-color3: #B81706;
   --bg-theme-color1: var(--theme-color1);
   --bg-theme-color2: var(--theme-color2);
   --bg-theme-color3: var(--theme-color3);
@@ -63,13 +68,13 @@ License: copyright commercial
   --border-theme-color1-light: var(--theme-color1);
   --border-theme-color2-light: var(--theme-color2);
   --border-theme-color3-light: var(--theme-color3);
-  --text-color-bg-theme-color1: #fff;
-  --text-color-bg-theme-color2: #fff;
-  --text-color-bg-theme-color3: #fff;
-  --text-color: #797f7d;
-  --headings-color: #003c38;
-  --link-color: #352F27;
-  --link-hover-color: #5B8C51;
+  --text-color-bg-theme-color1: var(--white);
+  --text-color-bg-theme-color2: var(--white);
+  --text-color-bg-theme-color3: var(--white);
+  --text-color: var(--prussian-blue);
+  --headings-color: #022857;
+  --link-color: #022857;
+  --link-hover-color: #B81706;
   --text-font: "DM Sans", sans-serif;
   --title-font: "DM Sans", sans-serif;
   --third-font: "Schoolbell",cursive;
@@ -96,13 +101,13 @@ License: copyright commercial
   --sec-title-font-size: var(--h2-font-size);
   --sec-title-font-family: var(--title-font);
   --sec-title-font-weight: var(--h2-font-weight);
-  --sec-title-subtitle-color: #819291;
+  --sec-title-subtitle-color: #6f7c8d;
   --sec-title-subtitle-font-size: 16px;
   --sec-title-subtitle-font-family: var(--text-font);
   --sec-title-subtitle-font-weight: 700;
-  --theme-light-background: #f8f6f1;
+  --theme-light-background: #f4f8fd;
   --theme-light-background-text-color: var(--headings-color);
-  --theme-black: #0e2207;
+  --theme-black: #022857;
   --container-width: 1200px;
   --small-container-width: 1000px;
   --large-container-width: 1550px;
@@ -7139,7 +7144,7 @@ Section Title
 }
 .category-block p {
   font-size: 14px;
-  color: #797f7d;
+  color: var(--text-color);
   line-height: 26px;
   margin-bottom: 0px;
 }
@@ -7220,7 +7225,7 @@ Section Title
   width: 100%;
   font-size: 30px;
   line-height: 1em;
-  color: #e8f3ea;
+  color: rgba(2, 40, 87, 0.08);
   height: 15px;
   overflow: hidden;
   text-transform: uppercase;
@@ -7266,7 +7271,7 @@ Section Title
 }
 .category-block-two p {
   font-size: 16px;
-  color: #797f7d;
+  color: var(--text-color);
   line-height: 26px;
   margin-bottom: 0px;
 }
@@ -7275,11 +7280,11 @@ Section Title
   display: inline-block;
   height: 50px;
   width: 50px;
-  background: #e8f3ea;
+  background: #eaf4fd;
   border-radius: 50%;
   line-height: 50px;
   margin-top: 25px;
-  color: #608174;
+  color: var(--theme-color1);
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
 }
@@ -7648,7 +7653,7 @@ Section Title
   line-height: 24px;
   padding: 0px 2px 10px;
   cursor: pointer;
-  color: #797f7d;
+  color: var(--text-color);
   font-weight: 500;
   font-size: 18px;
   margin: 0 12px 0;
@@ -9077,7 +9082,7 @@ Page Title
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  color: #0e2207;
+  color: var(--theme-color1);
   font-size: 16px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -9107,7 +9112,7 @@ Page Title
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  color: #0e2207;
+  color: var(--theme-color1);
   font-size: 16px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -9246,7 +9251,7 @@ Page Title
 }
 
 .blog-details__tags span {
-  color: #0e2207;
+  color: var(--theme-color1);
   font-size: 20px;
   margin-left: 14px;
   font-weight: var(--body-font-weight-bold);
@@ -9355,7 +9360,7 @@ Page Title
   position: relative;
   float: right;
   font-size: 20px;
-  color: #0e2207;
+  color: var(--theme-color1);
   font-weight: var(--body-font-weight-bold);
   color: var(--theme-light-background-text-color);
   background-color: var(--theme-light-background);
@@ -9631,7 +9636,7 @@ Sidebar
   letter-spacing: 0;
 }
 .sidebar__post .sidebar__post-list .sidebar__post-content h3 a {
-  color: #0e2207;
+  color: var(--theme-color1);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   display: block;
@@ -9642,7 +9647,7 @@ Sidebar
 .sidebar__post .sidebar__post-list .sidebar__post-content-meta {
   font-size: 14px;
   font-weight: 500;
-  color: #757873 !important;
+  color: var(--text-color) !important;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -9678,7 +9683,7 @@ Sidebar
   margin-top: 4px;
 }
 .sidebar__category-list li a {
-  color: #757873;
+  color: var(--text-color);
   font-size: 16px;
   position: relative;
   -webkit-transition: all 500ms ease;
@@ -9693,11 +9698,11 @@ Sidebar
   background-color: rgb(255, 255, 255);
   -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05);
-  color: #0e2207;
-  text-shadow: -1px 0 0 rgba(14, 34, 7, 0.5);
+  color: var(--theme-color1);
+  text-shadow: -1px 0 0 rgba(2, 40, 87, 0.5);
 }
 .sidebar__category-list li a:hover span {
-  color: #ffcd1e;
+  color: var(--theme-color2);
   -webkit-transform: translateY(-50%) scale(1);
   transform: translateY(-50%) scale(1);
 }
@@ -9726,14 +9731,14 @@ Sidebar
   background-color: rgb(255, 255, 255);
   -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05);
-  color: #0e2207;
+  color: var(--theme-color1);
   border-radius: 10px;
-  text-shadow: -1px 0 0 rgba(14, 34, 7, 0.5);
+  text-shadow: -1px 0 0 rgba(2, 40, 87, 0.5);
 }
 .sidebar__category-list li.active a span {
   -webkit-transform: translateY(-50%) scale(1);
   transform: translateY(-50%) scale(1);
-  color: #ffcd1e;
+  color: var(--theme-color2);
 }
 
 .sidebar__tags {
@@ -9761,7 +9766,7 @@ Sidebar
 }
 .sidebar__tags-list a {
   font-size: 14px;
-  color: #0e2207;
+  color: var(--theme-color1);
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   background: #ffffff;
@@ -9845,13 +9850,13 @@ Sidebar
   font-weight: 500;
 }
 .sidebar__comments-text-box p span {
-  color: #0e2207;
+  color: var(--theme-color1);
 }
 .sidebar__comments-text-box h5 {
   font-size: 15px;
   margin: 0;
   line-height: 26px;
-  color: #757873;
+  color: var(--text-color);
   font-weight: 500;
   letter-spacing: 0;
 }
