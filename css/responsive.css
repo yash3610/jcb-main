@@ -2,7 +2,11 @@
 
 @media only screen and (max-width: 1700px){
 	.main-menu .navigation>li{
-		margin-right: 24px;
+		margin-right: 26px;
+	}
+
+	.main-menu{
+		margin-left: 28px;
 	}
 
 	.offer-section .image-column .image-box{
@@ -74,6 +78,10 @@
 
 	.main-menu .navigation>li{
 		margin-right: 20px;
+	}
+
+	.main-menu{
+		margin-left: 0;
 	}
 
 	.main-header .header-lower{
@@ -190,6 +198,11 @@
 	.header-style-two .header-top,
 	.main-header .main-menu {
 		display: none;
+	}
+
+	.page-title {
+		margin-top: 58px;
+		padding: 85px 0 90px;
 	}
 
 	.mobile-nav-toggler {
