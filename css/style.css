@@ -1937,7 +1937,7 @@ Main Header
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
   min-width: 0;
-  margin-left: 34px;
+  margin-left: 76px;
 }
 
 .main-menu .navbar-header {
@@ -1965,7 +1965,7 @@ Main Header
   position: relative;
   float: none;
   padding: 20px 0px;
-  margin-right: 28px;
+  margin-right: 40px;
   white-space: nowrap;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
@@ -10620,4 +10620,320 @@ Sidebar
 }
 .footer-bottom .copyright-text a:hover {
   color: #ffffff;
+}
+
+
+/*==========================================
+PROPERTY SERVICE SECTION
+==========================================*/
+
+.property-service-section {
+  position: relative;
+  padding: 86px 0 82px;
+  background-image: linear-gradient(180deg, rgba(244, 250, 255, .96) 0%, rgba(255, 255, 255, .97) 52%, rgba(246, 251, 255, .96) 100%), url("../images/icons/pattern-1.png");
+  background-attachment: scroll, fixed;
+  background-position: center, center;
+  background-size: auto, auto;
+  overflow: hidden;
+}
+
+.property-service-section:before {
+  position: absolute;
+  inset: 70px auto auto 4%;
+  width: 420px;
+  height: 320px;
+  background: url("../images/icons/dotted-map.png") center / contain no-repeat;
+  content: "";
+  opacity: .12;
+  animation: float 9s linear infinite;
+}
+
+.property-service-section:after {
+  position: absolute;
+  right: 2%;
+  bottom: 54px;
+  width: 250px;
+  height: 250px;
+  background: url("../images/icons/shape-5.png") center / contain no-repeat;
+  content: "";
+  opacity: .16;
+  animation: bounce-y 10s linear infinite;
+}
+
+.property-service-section .auto-container {
+  position: relative;
+  z-index: 1;
+  max-width: 1510px;
+}
+
+.property-section-title {
+  max-width: 920px;
+  margin: 0 auto 34px;
+}
+
+.property-section-title .sub-title {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  color: #b81706;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  line-height: 1;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+}
+
+.property-section-title .sub-title:before,
+.property-section-title .sub-title:after {
+  content: "";
+  width: 42px;
+  height: 3px;
+  background: #b81706;
+  border-radius: 99px;
+}
+
+.property-section-title h2 {
+  color: #101928;
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 1.06;
+  letter-spacing: 0;
+  margin-bottom: 18px;
+}
+
+.property-section-title p {
+  color: #424b5e;
+  font-size: 22px;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.property-section-title p strong {
+  color: #b81706;
+  font-weight: 500;
+}
+
+.property-card {
+  position: relative;
+  height: 100%;
+  min-height: 312px;
+  overflow: hidden;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 12px 30px rgba(2, 40, 87, .12);
+  transition: transform 300ms ease, box-shadow 300ms ease;
+}
+
+.property-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 45px rgba(2, 40, 87, .18);
+}
+
+.property-image {
+  height: 158px;
+  overflow: hidden;
+  background: #dce8f4;
+}
+
+.property-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 500ms ease;
+}
+
+.property-card:hover .property-image img {
+  transform: scale(1.06);
+}
+
+.property-content {
+  position: relative;
+  min-height: 154px;
+  padding: 43px 25px 22px;
+  text-align: center;
+}
+
+.property-icon {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 76px;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #d41908, #b81706);
+  box-shadow: 0 8px 18px rgba(184, 23, 6, .32);
+  color: #ffffff;
+  font-size: 31px;
+  transform: translate(-50%, -50%);
+}
+
+.property-content h4 {
+  color: #022857;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.18;
+  margin-bottom: 12px;
+}
+
+.property-content p {
+  max-width: 250px;
+  min-height: 52px;
+  color: #323b4d;
+  font-size: 16px;
+  line-height: 1.45;
+  margin: 0 auto;
+}
+
+.property-content:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin: 18px auto 0;
+  background: #b81706;
+  border-radius: 99px;
+}
+
+.property-trust-bar {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) auto;
+  align-items: center;
+  gap: 0;
+  margin-top: 24px;
+  padding: 24px 36px;
+  border-radius: 8px;
+  background: #022857;
+  box-shadow: 0 16px 35px rgba(2, 40, 87, .18);
+}
+
+.trust-item {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  min-height: 58px;
+  padding: 0 32px;
+  border-right: 1px solid rgba(255, 255, 255, .32);
+  color: #ffffff;
+}
+
+.trust-item:first-child {
+  padding-left: 16px;
+}
+
+.trust-item i {
+  width: 44px;
+  flex: 0 0 44px;
+  color: #ffffff;
+  font-size: 42px;
+  line-height: 1;
+  text-align: center;
+}
+
+.trust-item span {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.trust-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-width: 240px;
+  min-height: 58px;
+  margin-left: 30px;
+  padding: 16px 26px;
+  border-radius: 8px;
+  background: #b81706;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 1;
+  text-align: center;
+  transition: background 300ms ease, transform 300ms ease;
+}
+
+.trust-btn:hover {
+  color: #ffffff;
+  background: #d21a08;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 1399px) {
+  .property-section-title h2 {
+    font-size: 48px;
+  }
+
+  .property-trust-bar {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 22px;
+  }
+
+  .trust-item:nth-child(2) {
+    border-right: 0;
+  }
+
+  .trust-btn {
+    grid-column: 1 / -1;
+    justify-self: center;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .property-service-section {
+    padding: 72px 0;
+  }
+
+  .property-section-title h2 {
+    font-size: 38px;
+  }
+
+  .property-section-title p {
+    font-size: 18px;
+  }
+
+  .property-trust-bar {
+    grid-template-columns: 1fr;
+    padding: 26px;
+  }
+
+  .trust-item,
+  .trust-item:nth-child(2) {
+    padding: 0;
+    border-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .property-section-title .sub-title {
+    gap: 10px;
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  .property-section-title .sub-title:before,
+  .property-section-title .sub-title:after {
+    width: 28px;
+  }
+
+  .property-section-title h2 {
+    font-size: 31px;
+  }
+
+  .property-image {
+    height: 145px;
+  }
+
+  .trust-item span,
+  .trust-btn {
+    font-size: 15px;
+  }
 }

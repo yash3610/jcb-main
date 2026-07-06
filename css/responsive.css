@@ -2,11 +2,11 @@
 
 @media only screen and (max-width: 1700px){
 	.main-menu .navigation>li{
-		margin-right: 26px;
+		margin-right: 34px;
 	}
 
 	.main-menu{
-		margin-left: 28px;
+		margin-left: 64px;
 	}
 
 	.offer-section .image-column .image-box{
