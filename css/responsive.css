@@ -2,7 +2,7 @@
 
 @media only screen and (max-width: 1700px){
 	.main-menu .navigation>li{
-		margin-right: 50px;
+		margin-right: 24px;
 	}
 
 	.offer-section .image-column .image-box{
@@ -30,7 +30,7 @@
 	}
 
 	.header-style-two .header-lower .logo-box{
-		margin-right: 40px;
+		margin-right: 24px;
 	}
 
 	.header-style-two .header-lower{
@@ -38,7 +38,7 @@
 	}
 
 	.header-style-two .header-lower .logo-box{
-		min-width: 200px;
+		min-width: 190px;
 	}
 }
 
@@ -73,7 +73,7 @@
 
 
 	.main-menu .navigation>li{
-		margin-right: 45px;
+		margin-right: 20px;
 	}
 
 	.main-header .header-lower{
